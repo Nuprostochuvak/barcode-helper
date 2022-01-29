@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_sheet_db/views/barcode_list.dart';
-import 'package:google_sheet_db/views/barcodes_hive_list.dart';
+import 'package:google_sheet_db/views/config_barcode_page.dart';
+import 'package:google_sheet_db/views/test_barcode_page.dart';
 
 class MainScreenWiget extends StatefulWidget {
   MainScreenWiget({Key? key}) : super(key: key);
@@ -13,8 +13,8 @@ class _MainScreenWigetState extends State<MainScreenWiget> {
   int _selectedTab = 0;
 
   static final List<Widget> _widgetOptions = <Widget>[
-    ConfigBarcodesListWiget(),
-    TestBarcodePageWidget(),
+    ConfigBarcodesPage(),
+    TestBarcodePage(),
     Center(child: Text('Функция еще в разработке')),
   ];
 

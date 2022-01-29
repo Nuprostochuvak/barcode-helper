@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_sheet_db/widgets/main_screen_widget/main_screen_widget.dart';
+import 'package:google_sheet_db/widgets/main_screen_widget.dart';
 
 void main() {
   runApp(MyApp());

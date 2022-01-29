@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:google_sheet_db/models/barcode_list_model.dart';
-import 'package:google_sheet_db/views/generate_barcode_widget.dart';
+import 'package:google_sheet_db/widgets/generate_barcode_widget.dart';
 
-class ConfigBarcodesListWiget extends StatefulWidget {
-  const ConfigBarcodesListWiget({Key? key}) : super(key: key);
+class ConfigBarcodesPage extends StatefulWidget {
+  const ConfigBarcodesPage({Key? key}) : super(key: key);
 
   @override
-  _ConfigBarcodesListWigetState createState() =>
-      _ConfigBarcodesListWigetState();
+  _ConfigBarcodesPageState createState() => _ConfigBarcodesPageState();
 }
 
-class _ConfigBarcodesListWigetState extends State<ConfigBarcodesListWiget> {
+class _ConfigBarcodesPageState extends State<ConfigBarcodesPage> {
   final model = BarcodesListModel();
 
   @override
