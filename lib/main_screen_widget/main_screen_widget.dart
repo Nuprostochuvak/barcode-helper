@@ -13,8 +13,8 @@ class _MainScreenWigetState extends State<MainScreenWiget> {
   int _selectedTab = 0;
 
   static final List<Widget> _widgetOptions = <Widget>[
-    BarcodesList(),
-    BarcodePageWidget(),
+    ConfigBarcodesListWiget(),
+    TestBarcodePageWidget(),
     Center(child: Text('Функция еще в разработке')),
   ];
 

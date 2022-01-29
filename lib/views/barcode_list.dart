@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:google_sheet_db/models/barcode_model.dart';
-
 import 'package:google_sheet_db/views/generate_barcode_widget.dart';
 
-class BarcodesList extends StatefulWidget {
-  const BarcodesList({Key? key}) : super(key: key);
+class ConfigBarcodesListWiget extends StatefulWidget {
+  const ConfigBarcodesListWiget({Key? key}) : super(key: key);
 
   @override
-  _BarcodesListState createState() => _BarcodesListState();
+  _ConfigBarcodesListWigetState createState() =>
+      _ConfigBarcodesListWigetState();
 }
 
-class _BarcodesListState extends State<BarcodesList> {
+class _ConfigBarcodesListWigetState extends State<ConfigBarcodesListWiget> {
   final model = BarcodesWidgetModel();
 
   @override
@@ -30,7 +30,6 @@ class _BarcodesListState extends State<BarcodesList> {
             Row(
               children: [
                 Expanded(child: const _LoadButton()),
-                //Expanded(child: const _SavedButton()),
               ],
             ),
           ],
@@ -51,18 +50,6 @@ class _LoadButton extends StatelessWidget {
     );
   }
 }
-
-//class _SavedButton extends StatelessWidget {
-//  const _SavedButton({Key? key}) : super(key: key);
-
-//  @override
-//  Widget build(BuildContext context) {
-//    return ElevatedButton(
-//      onPressed: () => ExampleModelProvider.read(context)?.model.saveBarcodes(),
-//      child: const Text('Сохранить штрихкоды'),
-//    );
-//  }
-//}
 
 class _BarcodesWidget extends StatelessWidget {
   const _BarcodesWidget({Key? key}) : super(key: key);

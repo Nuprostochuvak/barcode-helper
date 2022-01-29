@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_sheet_db/API/api_client.dart';
 import 'package:google_sheet_db/models/barcode.dart';
-import 'package:google_sheet_db/models/barcode_hive.dart';
-import 'package:hive/hive.dart';
 
 class BarcodesWidgetModel extends ChangeNotifier {
   final apiClient = ApiClient();
@@ -17,8 +15,6 @@ class BarcodesWidgetModel extends ChangeNotifier {
   }
 
   Future<void> saveBarcodes() async {
-    var box = Hive.box('barcodes_box');
-    box.put('new_barcodes', _barcodes as List<BarcodeHive>);
     print("WALLPAPER ADICIONADO NO HIVE!");
   }
 
