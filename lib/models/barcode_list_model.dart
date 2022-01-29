@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:google_sheet_db/API/api_client.dart';
 import 'package:google_sheet_db/models/barcode.dart';
 
-class BarcodesWidgetModel extends ChangeNotifier {
+class BarcodesListModel extends ChangeNotifier {
   final apiClient = ApiClient();
 
   var _barcodes = <Barcode>[];
+
   List<Barcode> get barcodes => _barcodes;
 
   Future<void> loadBarcodes() async {
@@ -13,16 +14,10 @@ class BarcodesWidgetModel extends ChangeNotifier {
     _barcodes = barcodes; // загрузить штрихкоды
     notifyListeners();
   }
-
-  Future<void> saveBarcodes() async {
-    print("WALLPAPER ADICIONADO NO HIVE!");
-  }
-
-  void createBarcodes() {}
 }
 
 class ExampleModelProvider extends InheritedNotifier {
-  final BarcodesWidgetModel model;
+  final BarcodesListModel model;
 
   const ExampleModelProvider({
     Key? key,

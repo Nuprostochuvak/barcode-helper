@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_sheet_db/models/barcode_model.dart';
+import 'package:google_sheet_db/models/barcode_list_model.dart';
 import 'package:google_sheet_db/views/generate_barcode_widget.dart';
 
 class ConfigBarcodesListWiget extends StatefulWidget {
@@ -11,7 +11,7 @@ class ConfigBarcodesListWiget extends StatefulWidget {
 }
 
 class _ConfigBarcodesListWigetState extends State<ConfigBarcodesListWiget> {
-  final model = BarcodesWidgetModel();
+  final model = BarcodesListModel();
 
   @override
   Widget build(BuildContext context) {
