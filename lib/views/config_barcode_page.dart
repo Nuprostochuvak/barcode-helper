@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_sheet_db/models/barcode_list_model.dart';
-import 'package:google_sheet_db/widgets/generate_barcode_widget.dart';
+import 'package:google_sheet_db/widgets/barcode_card_widget.dart';
 
 class ConfigBarcodesPage extends StatefulWidget {
   const ConfigBarcodesPage({Key? key}) : super(key: key);
@@ -116,7 +116,7 @@ class _BarcodesRowWidget extends StatelessWidget {
               ),
             ],
           ),
-          GenerateBarcodeWidget(context, barcode),
+          BarcodeCardWidget(context, barcode),
           const SizedBox(height: 10),
         ],
       ),
