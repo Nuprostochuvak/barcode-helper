@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_sheet_db/models/barcode.dart';
-import 'package:google_sheet_db/models/barcode_hive.dart';
-import 'package:google_sheet_db/resources/resources.dart';
 
-import 'package:syncfusion_flutter_barcodes/barcodes.dart';
+import 'package:google_sheet_db/models/barcode_hive.dart';
 
 // ignore: non_constant_identifier_names
 Widget GenerateBarcodeHiveWidget(BuildContext context, BarcodeHive barcode) {

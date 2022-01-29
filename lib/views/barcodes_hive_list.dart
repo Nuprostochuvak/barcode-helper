@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:google_sheet_db/models/barcode_hive.dart';
+
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:google_sheet_db/models/barcode_model.dart';
-import 'generate_barcode_hive.dart';
 
 class BarcodePageWidget extends StatefulWidget {
   BarcodePageWidget({Key? key}) : super(key: key);
@@ -23,8 +22,6 @@ class _BarcodePageWidgetState extends State<BarcodePageWidget> {
 
   @override
   Widget build(BuildContext context) {
-    var barcodeList = ExampleModelProvider.read(context)?.model.barcodes;
-
     return Center(child: Text('Функция еще в разработке'));
     //Column(
     // children: [

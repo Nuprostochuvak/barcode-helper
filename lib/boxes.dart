@@ -1,4 +1,3 @@
-import 'package:google_sheet_db/models/barcode_model.dart';
 import 'package:hive/hive.dart';
 
 import 'models/barcode_hive.dart';
