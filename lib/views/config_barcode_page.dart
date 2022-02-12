@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_sheet_db/models/barcode_list_model.dart';
+
 import 'package:google_sheet_db/widgets/barcode_card_widget.dart';
 
 class ConfigBarcodesPage extends StatefulWidget {
@@ -10,42 +11,68 @@ class ConfigBarcodesPage extends StatefulWidget {
 }
 
 class _ConfigBarcodesPageState extends State<ConfigBarcodesPage> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    WidgetsBinding.instance!.addPostFrameCallback(
+        (_) => ExampleModelProvider.read(context)?.model.loadLocalBarcodes());
+  }
+
   final model = BarcodesListModel();
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: ExampleModelProvider(
-        model: model,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const Expanded(
-              child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 5),
-                child: _BarcodesWidget(),
+    ExampleModelProvider.read(context)?.model.loadWebBarcodes();
+    return Scaffold(
+      body: SafeArea(
+        child: ExampleModelProvider(
+          model: model,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              const Expanded(
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 5),
+                  child: _BarcodesWidget(),
+                ),
               ),
-            ),
-            Row(
-              children: [
-                Expanded(child: const _LoadButton()),
-              ],
-            ),
-          ],
+              Row(
+                children: [
+                  Expanded(child: const _WebLoadButton()),
+                  Expanded(child: const _LocalLoadButton()),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
 }
 
-class _LoadButton extends StatelessWidget {
-  const _LoadButton({Key? key}) : super(key: key);
+class _WebLoadButton extends StatelessWidget {
+  const _WebLoadButton({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () => ExampleModelProvider.read(context)?.model.loadBarcodes(),
+      onPressed: () =>
+          ExampleModelProvider.read(context)?.model.loadWebBarcodes(),
       child: const Text('Загрузить штрихкоды'),
+    );
+  }
+}
+
+class _LocalLoadButton extends StatelessWidget {
+  const _LocalLoadButton({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton(
+      onPressed: () =>
+          ExampleModelProvider.read(context)?.model.loadLocalBarcodes(),
+      child: const Text('Загрузить локально'),
     );
   }
 }

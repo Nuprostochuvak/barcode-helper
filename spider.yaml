@@ -19,3 +19,6 @@ groups:
   - path: images/barcode_images
     class_name: BarcodeImages
     types: [ .png, .jpg, .jpeg, .webp, .webm, .bmp ]
+  - path: images/barcode_samples
+    class_name: TestBarcode
+    types: [ .png, .jpg, .jpeg, .webp, .webm, .bmp ]

@@ -1,242 +1,275 @@
 [
  {
-   "file_name": "aztec.png",
+   "id": 1,
    "name": "aztec",
-   "title": "aztec",
+   "file_name": "aztec.png",
+   "codeOfBarcode": "aztec",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "code-11.png",
+   "id": 2,
    "name": "code-11",
-   "title": "code-11",
+   "file_name": "code-11.png",
+   "codeOfBarcode": "code-11",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "code-128.png",
+   "id": 3,
    "name": "code-128",
-   "title": "code-128",
+   "file_name": "code-128.png",
+   "codeOfBarcode": "code-128",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "code-39.png",
+   "id": 4,
    "name": "code-39",
-   "title": "code-39",
+   "file_name": "code-39.png",
+   "codeOfBarcode": "code-39",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "code-93.png",
+   "id": 5,
    "name": "code-93",
-   "title": "code-93",
+   "file_name": "code-93.png",
+   "codeOfBarcode": "code-93",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "code_2_of_5_Interleaved.png",
+   "id": 6,
    "name": "code_2_of_5_Interleaved",
-   "title": "code_2_of_5_Interleaved",
+   "file_name": "code_2_of_5_Interleaved.png",
+   "codeOfBarcode": "code_2_of_5_Interleaved",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "compose_EAN-13.png",
+   "id": 7,
    "name": "compose_EAN-13",
-   "title": "compose_EAN-13",
+   "file_name": "compose_EAN-13.png",
+   "codeOfBarcode": "compose_EAN-13",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "compose_EAN-8.png",
+   "id": 8,
    "name": "compose_EAN-8",
-   "title": "compose_EAN-8",
+   "file_name": "compose_EAN-8.png",
+   "codeOfBarcode": "compose_EAN-8",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "compose_UPC-A.png",
+   "id": 9,
    "name": "compose_UPC-A",
-   "title": "compose_UPC-A",
+   "file_name": "compose_UPC-A.png",
+   "codeOfBarcode": "compose_UPC-A",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "compose_UPC-E.png",
+   "id": 10,
    "name": "compose_UPC-E",
-   "title": "compose_UPC-E",
+   "file_name": "compose_UPC-E.png",
+   "codeOfBarcode": "compose_UPC-E",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "EAN-13.png",
+   "id": 11,
    "name": "EAN-13",
-   "title": "EAN-13",
+   "file_name": "EAN-13.png",
+   "codeOfBarcode": "EAN-13",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "EAN-13_cow.png",
+   "id": 12,
    "name": "EAN-13_cow",
-   "title": "EAN-13_cow",
+   "file_name": "EAN-13_cow.png",
+   "codeOfBarcode": "EAN-13_cow",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "EAN-8.png",
+   "id": 13,
    "name": "EAN-8",
-   "title": "EAN-8",
+   "file_name": "EAN-8.png",
+   "codeOfBarcode": "EAN-8",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "filenames.txt",
-   "name": "filenames",
-   "title": "filenames",
-   "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
- },
- {
-   "file_name": "GS1-128_UCC_EAN-128.png",
+   "id": 15,
    "name": "GS1-128_UCC_EAN-128",
-   "title": "GS1-128_UCC_EAN-128",
+   "file_name": "GS1-128_UCC_EAN-128.png",
+   "codeOfBarcode": "GS1-128_UCC_EAN-128",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "GS1_DataBar.png",
+   "id": 16,
    "name": "GS1_DataBar",
-   "title": "GS1_DataBar",
+   "file_name": "GS1_DataBar.png",
+   "codeOfBarcode": "GS1_DataBar",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "GS1_DataBar_Expanded.png",
+   "id": 17,
    "name": "GS1_DataBar_Expanded",
-   "title": "GS1_DataBar_Expanded",
+   "file_name": "GS1_DataBar_Expanded.png",
+   "codeOfBarcode": "GS1_DataBar_Expanded",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "GS1_DataBar_Omni.png",
+   "id": 18,
    "name": "GS1_DataBar_Omni",
-   "title": "GS1_DataBar_Omni",
+   "file_name": "GS1_DataBar_Omni.png",
+   "codeOfBarcode": "GS1_DataBar_Omni",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "GS1_DataBar_Stacked.png",
+   "id": 19,
    "name": "GS1_DataBar_Stacked",
-   "title": "GS1_DataBar_Stacked",
+   "file_name": "GS1_DataBar_Stacked.png",
+   "codeOfBarcode": "GS1_DataBar_Stacked",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "GS1_DataDar_limited.png",
+   "id": 20,
    "name": "GS1_DataDar_limited",
-   "title": "GS1_DataDar_limited",
+   "file_name": "GS1_DataDar_limited.png",
+   "codeOfBarcode": "GS1_DataDar_limited",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "Han_Xin.png",
+   "id": 21,
    "name": "Han_Xin",
-   "title": "Han_Xin",
+   "file_name": "Han_Xin.png",
+   "codeOfBarcode": "Han_Xin",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "inverted_Code-128.png",
+   "id": 22,
    "name": "inverted_Code-128",
-   "title": "inverted_Code-128",
+   "file_name": "inverted_Code-128.png",
+   "codeOfBarcode": "inverted_Code-128",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "inverted_DataMatrix.png",
+   "id": 23,
    "name": "inverted_DataMatrix",
-   "title": "inverted_DataMatrix",
+   "file_name": "inverted_DataMatrix.png",
+   "codeOfBarcode": "inverted_DataMatrix",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "inverted_EAN-13.png",
+   "id": 24,
    "name": "inverted_EAN-13",
-   "title": "inverted_EAN-13",
+   "file_name": "inverted_EAN-13.png",
+   "codeOfBarcode": "inverted_EAN-13",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "inverted_EAN-8.png",
+   "id": 25,
    "name": "inverted_EAN-8",
-   "title": "inverted_EAN-8",
+   "file_name": "inverted_EAN-8.png",
+   "codeOfBarcode": "inverted_EAN-8",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "inverted_GS1_DataBar_2D.png",
+   "id": 26,
    "name": "inverted_GS1_DataBar_2D",
-   "title": "inverted_GS1_DataBar_2D",
+   "file_name": "inverted_GS1_DataBar_2D.png",
+   "codeOfBarcode": "inverted_GS1_DataBar_2D",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "inverted_MicroQR_�ode.png",
-   "name": "inverted_MicroQR_�ode",
-   "title": "inverted_MicroQR_�ode",
+   "id": 27,
+   "name": "inverted_MicroQR_Code",
+   "file_name": "inverted_MicroQR_Code.png",
+   "codeOfBarcode": "inverted_MicroQR_Code",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "inverted_UPC-A.png",
+   "id": 28,
    "name": "inverted_UPC-A",
-   "title": "inverted_UPC-A",
+   "file_name": "inverted_UPC-A.png",
+   "codeOfBarcode": "inverted_UPC-A",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "inverted_UPC-E.png",
+   "id": 29,
    "name": "inverted_UPC-E",
-   "title": "inverted_UPC-E",
+   "file_name": "inverted_UPC-E.png",
+   "codeOfBarcode": "inverted_UPC-E",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "ISBN-13+5.png",
+   "id": 30,
    "name": "ISBN-13+5",
-   "title": "ISBN-13+5",
+   "file_name": "ISBN-13+5.png",
+   "codeOfBarcode": "ISBN-13+5",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "ISBN-13.png",
+   "id": 31,
    "name": "ISBN-13",
-   "title": "ISBN-13",
+   "file_name": "ISBN-13.png",
+   "codeOfBarcode": "ISBN-13",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "ISSBN-13+2.png",
+   "id": 32,
    "name": "ISSBN-13+2",
-   "title": "ISSBN-13+2",
+   "file_name": "ISSBN-13+2.png",
+   "codeOfBarcode": "ISSBN-13+2",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "MaxiCode.png",
+   "id": 33,
    "name": "MaxiCode",
-   "title": "MaxiCode",
+   "file_name": "MaxiCode.png",
+   "codeOfBarcode": "MaxiCode",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "microPDF-417.png",
+   "id": 34,
    "name": "microPDF-417",
-   "title": "microPDF-417",
+   "file_name": "microPDF-417.png",
+   "codeOfBarcode": "microPDF-417",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "MicroQR_Code.png",
+   "id": 35,
    "name": "MicroQR_Code",
-   "title": "MicroQR_Code",
+   "file_name": "MicroQR_Code.png",
+   "codeOfBarcode": "MicroQR_Code",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "MSI.png",
+   "id": 36,
    "name": "MSI",
-   "title": "MSI",
+   "file_name": "MSI.png",
+   "codeOfBarcode": "MSI",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "PDF-417.png",
+   "id": 37,
    "name": "PDF-417",
-   "title": "PDF-417",
+   "file_name": "PDF-417.png",
+   "codeOfBarcode": "PDF-417",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "Telepen.png",
+   "id": 38,
    "name": "Telepen",
-   "title": "Telepen",
+   "file_name": "Telepen.png",
+   "codeOfBarcode": "Telepen",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "UPC-A.png",
+   "id": 39,
    "name": "UPC-A",
-   "title": "UPC-A",
+   "file_name": "UPC-A.png",
+   "codeOfBarcode": "UPC-A",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  },
  {
-   "file_name": "UPC-E.png",
+   "id": 40,
    "name": "UPC-E",
-   "title": "UPC-E",
+   "file_name": "UPC-E.png",
+   "codeOfBarcode": "UPC-E",
    "description": "Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1Ne zadano 1"
  }
 ]

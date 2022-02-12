@@ -6,13 +6,19 @@ part 'barcode.g.dart';
 
 @JsonSerializable()
 class Barcode {
-  final String id;
+  //final String id;
   final String name;
   final String codeOfBarcode;
   final String description;
 
+/*class Barcode {
+  final String? id;
+  final String name;
+  final String codeOfBarcode;
+  final String description;
+ */
+
   Barcode(
-    this.id,
     this.name,
     this.codeOfBarcode,
     this.description,
