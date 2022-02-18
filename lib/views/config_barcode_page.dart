@@ -15,19 +15,6 @@ class _ConfigBarcodesPageState extends State<ConfigBarcodesPage> {
   final model = BarcodesListModel();
 
   @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance!.addPostFrameCallback(
-      (_) => loadBarcodeList(),
-    );
-  }
-
-  void loadBarcodeList() async {
-    List<Barcode>? barcode =
-        await BarcodesListModelProvider.read(context)?.model.getLocalBarcodes();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
@@ -182,7 +169,7 @@ class BarcodesRowWidget extends StatelessWidget {
               ),
             ],
           ),
-          BarcodeCardWidget(context, barcode),
+          barcodeCardWidget(context, barcode),
           const SizedBox(height: 10),
         ],
       ),

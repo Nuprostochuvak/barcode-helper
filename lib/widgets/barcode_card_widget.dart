@@ -7,7 +7,7 @@ import 'package:google_sheet_db/widgets/barcode_image_dialog_widget.dart';
 import 'package:share/share.dart';
 import 'package:path_provider/path_provider.dart';
 
-Widget BarcodeCardWidget(BuildContext context, Barcode barcode) {
+Widget barcodeCardWidget(BuildContext context, Barcode barcode) {
   String stringImage = barcode.codeOfBarcode;
   String path = 'images/barcode_images/$stringImage.png';
 
