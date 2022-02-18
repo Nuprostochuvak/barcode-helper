@@ -2,9 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:google_sheet_db/views/wired_congig_page.dart';
 import 'package:google_sheet_db/views/wireless_config_page.dart';
 
-class SelectScanerModification extends StatelessWidget {
+class SelectScanerModification extends StatefulWidget {
   const SelectScanerModification({Key? key}) : super(key: key);
 
+  @override
+  State<SelectScanerModification> createState() =>
+      _SelectScanerModificationState();
+}
+
+class _SelectScanerModificationState extends State<SelectScanerModification> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

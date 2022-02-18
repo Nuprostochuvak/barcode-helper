@@ -23,12 +23,17 @@ class BarcodesListModel extends ChangeNotifier {
     _barcodes = barcodes; // загрузить штрихкоды
     notifyListeners();
   }
+
+  Future<List<Barcode>> getLocalBarcodes() async {
+    loadLocalBarcodes();
+    return barcodes;
+  }
 }
 
-class ExampleModelProvider extends InheritedNotifier {
+class BarcodesListModelProvider extends InheritedNotifier {
   final BarcodesListModel model;
 
-  const ExampleModelProvider({
+  const BarcodesListModelProvider({
     Key? key,
     required this.model,
     required Widget child,
@@ -38,14 +43,15 @@ class ExampleModelProvider extends InheritedNotifier {
           child: child,
         );
 
-  static ExampleModelProvider? watch(BuildContext context) {
-    return context.dependOnInheritedWidgetOfExactType<ExampleModelProvider>();
+  static BarcodesListModelProvider? watch(BuildContext context) {
+    return context
+        .dependOnInheritedWidgetOfExactType<BarcodesListModelProvider>();
   }
 
-  static ExampleModelProvider? read(BuildContext context) {
+  static BarcodesListModelProvider? read(BuildContext context) {
     final widget = context
-        .getElementForInheritedWidgetOfExactType<ExampleModelProvider>()
+        .getElementForInheritedWidgetOfExactType<BarcodesListModelProvider>()
         ?.widget;
-    return widget is ExampleModelProvider ? widget : null;
+    return widget is BarcodesListModelProvider ? widget : null;
   }
 }

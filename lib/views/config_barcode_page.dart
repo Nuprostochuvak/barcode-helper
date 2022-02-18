@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_sheet_db/models/barcode.dart';
 import 'package:google_sheet_db/models/barcode_list_model.dart';
 
 import 'package:google_sheet_db/widgets/barcode_card_widget.dart';
@@ -11,22 +12,26 @@ class ConfigBarcodesPage extends StatefulWidget {
 }
 
 class _ConfigBarcodesPageState extends State<ConfigBarcodesPage> {
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    WidgetsBinding.instance!.addPostFrameCallback(
-        (_) => ExampleModelProvider.read(context)?.model.loadLocalBarcodes());
-  }
-
   final model = BarcodesListModel();
 
   @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance!.addPostFrameCallback(
+      (_) => loadBarcodeList(),
+    );
+  }
+
+  void loadBarcodeList() async {
+    List<Barcode>? barcode =
+        await BarcodesListModelProvider.read(context)?.model.getLocalBarcodes();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    ExampleModelProvider.read(context)?.model.loadWebBarcodes();
     return Scaffold(
       body: SafeArea(
-        child: ExampleModelProvider(
+        child: BarcodesListModelProvider(
           model: model,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -34,7 +39,7 @@ class _ConfigBarcodesPageState extends State<ConfigBarcodesPage> {
               const Expanded(
                 child: Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 5),
-                  child: _BarcodesWidget(),
+                  child: BarcodesWidget(),
                 ),
               ),
               Row(
@@ -58,7 +63,7 @@ class _WebLoadButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () =>
-          ExampleModelProvider.read(context)?.model.loadWebBarcodes(),
+          BarcodesListModelProvider.read(context)?.model.loadWebBarcodes(),
       child: const Text('Загрузить штрихкоды'),
     );
   }
@@ -71,14 +76,46 @@ class _LocalLoadButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () =>
-          ExampleModelProvider.read(context)?.model.loadLocalBarcodes(),
+          BarcodesListModelProvider.read(context)?.model.loadLocalBarcodes(),
       child: const Text('Загрузить локально'),
     );
   }
 }
 
-class _BarcodesWidget extends StatelessWidget {
-  const _BarcodesWidget({Key? key}) : super(key: key);
+class BarcodesWidget extends StatelessWidget {
+  const BarcodesWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    BarcodesListModel model = BarcodesListModelProvider.read(context)!.model;
+
+    return Scrollbar(
+      thickness: 8,
+      child: FutureBuilder(
+          future: model.getLocalBarcodes(),
+          builder: (ctx, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting)
+              return Center(child: CircularProgressIndicator());
+            final List<Barcode> barcode = snapshot.data as List<Barcode>;
+            return ListView.builder(
+              itemCount: BarcodesListModelProvider.watch(context)
+                      ?.model
+                      .barcodes
+                      .length ??
+                  0,
+              itemBuilder: (BuildContext context, int index) {
+                return BarcodesRowWidget(
+                  index: index,
+                );
+              },
+            );
+          }),
+    );
+  }
+}
+
+/*class BarcodesWidget extends StatelessWidget {
+  const BarcodesWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -86,24 +123,26 @@ class _BarcodesWidget extends StatelessWidget {
       thickness: 8,
       child: ListView.builder(
         itemCount:
-            ExampleModelProvider.watch(context)?.model.barcodes.length ?? 0,
+            BarcodesListModelProvider.watch(context)?.model.barcodes.length ??
+                0,
         itemBuilder: (BuildContext context, int index) {
-          return _BarcodesRowWidget(
+          return BarcodesRowWidget(
             index: index,
           );
         },
       ),
     );
   }
-}
+}*/
 
-class _BarcodesRowWidget extends StatelessWidget {
+class BarcodesRowWidget extends StatelessWidget {
   final int index;
-  const _BarcodesRowWidget({Key? key, required this.index}) : super(key: key);
+  const BarcodesRowWidget({Key? key, required this.index}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final barcode = ExampleModelProvider.read(context)!.model.barcodes[index];
+    final barcode =
+        BarcodesListModelProvider.read(context)!.model.barcodes[index];
     String name = (barcode.name == '') ? 'Имя еще не задано' : barcode.name;
 
     String description = (barcode.description == '')

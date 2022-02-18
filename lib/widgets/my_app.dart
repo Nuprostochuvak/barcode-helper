@@ -30,7 +30,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void initState() {
-    super.initState();
     _selectedPage = 0;
 
     _pages = [
@@ -43,51 +42,29 @@ class _MyAppState extends State<MyApp> {
       ConfigBarcodesPage(),
       TestBarcodePage(),
     ];
+
+    super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Barcode helper'),
+        title: Column(
+          children: [
+            Text('Barcode helper'),
+            Text('Barcode helper'),
+          ],
+        ),
         centerTitle: true,
       ),
-      body: WillPopScope(
-        onWillPop: () async {
-          return !await Navigator.maybePop(
-            MyKeys.getKeys()[_selectedPage].currentState!.context,
-          );
-        },
-        child: IndexedStack(
-          index: _selectedPage,
-          children: _pages,
-        ),
-      ),
+      body: _pages[_selectedPage],
       bottomNavigationBar: BottomNavigationBar(
         items: _items,
+        type: BottomNavigationBarType.fixed,
         currentIndex: _selectedPage,
         onTap: (index) {
-          setState(() {
-            // now check if the chosen page has already been built
-            // if it hasn't, then it still is a SizedBox
-            if (_pages[index] is SizedBox) {
-              if (index == 1) {
-                _pages[index] = MyPage(
-                  1,
-                  "Page 02",
-                  MyKeys.getKeys().elementAt(index),
-                );
-              } else {
-                _pages[index] = MyPage(
-                  1,
-                  "Page 03",
-                  MyKeys.getKeys().elementAt(index),
-                );
-              }
-            }
-
-            _selectedPage = index;
-          });
+          setState(() => _selectedPage = index);
         },
       ),
     );
@@ -123,3 +100,16 @@ class MyKeys {
 
   static List<GlobalKey> getKeys() => [first, second, third];
 }
+
+//keep alive tabs
+/*WillPopScope(
+        onWillPop: () async {
+          return !await Navigator.maybePop(
+            MyKeys.getKeys()[_selectedPage].currentState!.context,
+          );
+        },
+        child: IndexedStack(
+          index: _selectedPage,
+          children: _pages,
+        ),
+      ),*/
